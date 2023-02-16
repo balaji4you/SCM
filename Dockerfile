@@ -6,3 +6,4 @@ COPY . .
 #ADD /target/Funds_1199-0.0.1-SNAPSHOT.jar app.jar
 RUN mvn clean install -q
 ENTRYPOINT ["java","-jar","/target/AuthServerSecurity-0.0.1-SNAPSHOT.jar","--spring.config.location=classpath:file:application.properties"]
+# testing for functioning/
